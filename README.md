@@ -8,6 +8,17 @@ Planned platforms to support: currently Telegram only, also Twitter is in questi
 
 How a user can interact with the service: through the user web interface or through a bot, if the platform provides this feature.
 
+### Use Cases
+- A user can explore audiences
+- A user can inspect a specific audience
+    - Audience prefferences
+- A user can see the audience comparison
+    - Count of mutual audience
+    - General audience prefferences
+- A user can see an interactive graph of audiences
+
+*The term audience in this context means channel, account, group, etc.*
+
 ## System Design
 ![System design](assets/system-design.drawio.png)
 
