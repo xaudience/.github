@@ -8,6 +8,9 @@ Planned platforms to support: currently Telegram only, also Twitter is in questi
 
 How a user can interact with the service: through the user web interface or through a bot, if the platform provides this feature.
 
+### Goals
+Create platform-agnostic analytics service that preserves the anonymity of users.
+
 ### Use Cases
 - A user can explore audiences
 - A user can inspect a specific audience
