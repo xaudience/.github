@@ -11,10 +11,10 @@ How a user can interact with the service: through the user web interface or thro
 ### Use Cases
 - A user can explore audiences
 - A user can inspect a specific audience
-    - Audience prefferences
+    - Audience preferences
 - A user can see the audience comparison
     - Count of mutual audience
-    - General audience prefferences
+    - General audience preferences
 - A user can see an interactive graph of audiences
 
 *The term audience in this context means channel, account, group, etc.*
