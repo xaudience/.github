@@ -9,5 +9,5 @@ Planned platforms to support: currently Telegram only, also Twitter is in questi
 How a user can interact with the service: through the user web interface or through a bot, if the platform provides this feature.
 
 ## System Design
-![System design](system-design.drawio.png)
+![System design](assets/system-design.drawio.png)
 
