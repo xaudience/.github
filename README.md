@@ -25,3 +25,17 @@ Create platform-agnostic analytics service that preserves the anonymity of users
 ## System Design
 ![System design](assets/system-design.drawio.png)
 
+### User Web Application
+An React application using GraphQL hooks to get data. The application's static files are delivered to users via CDN.
+
+### Stuff Web Application
+Allows stuff to monitor and control internal systems.
+
+### Stuff Web Server
+Aggregates all internal systems, collects statistical data, logging errors.
+
+### Analyzer
+Reads and analyzes audience data and writes results to database.
+
+### Data Aggregator
+Application that collecting, parsing, scraping raw data from social network or another type of social platform and writes it to the database.
