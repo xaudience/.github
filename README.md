@@ -32,7 +32,7 @@ An React application using GraphQL hooks to get data. The application's static f
 Allows stuff to monitor and control internal systems.
 
 ### Stuff Web Server
-Watching all internal systems, collects statistical data, logging errors.
+Watching all internal systems, collects statistical data, logs errors and other useful info.
 
 ### Analyzer
 Reads and analyzes audience data and writes results to database.
