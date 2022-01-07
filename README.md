@@ -20,7 +20,7 @@ Create platform-agnostic analytics service that preserves the anonymity of users
     - General audience preferences
 - A user can see an interactive graph of audiences
 
-*The term audience in this context means channel, account, group, etc.*
+*The term audience in this context means audience of a channel, account, group, etc.*
 
 ## System Design
 ![System design](assets/system-design.drawio.png)
