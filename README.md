@@ -26,7 +26,7 @@ Create platform-agnostic analytics service that preserves the anonymity of users
 ![System design](assets/system-design.drawio.png)
 
 ### User Web Application
-An React application using GraphQL hooks to get data. The application's static files are delivered to users via CDN.
+React application with GraphQL hooks for data fetching. The application's static files are delivered to users via CDN.
 
 ### Stuff Web Application
 Allows stuff to monitor and control internal systems.
