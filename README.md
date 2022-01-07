@@ -32,10 +32,10 @@ React application with GraphQL hooks for data fetching. The application's static
 Allows stuff to monitor and control internal systems.
 
 ### Stuff Web Server
-Watching all internal systems, collects statistical data, logs errors and other useful info.
+Watches all internal systems, collects statistical data, logs errors and other useful info.
 
 ### Analyzer
 Reads and analyzes audience data and writes results to database.
 
 ### Data Aggregator
-Application that collecting, parsing, scraping raw data from social network or another type of social platform and writes it to the database.
+Collects, parses, scrapes raw data from social network or another type of social platform and writes it to the database.
