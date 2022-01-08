@@ -24,7 +24,7 @@ Create platform-agnostic and scalable analytics service that preserves the anony
 ![System design](assets/system-design.drawio.png)
 
 ### User Web Interface
-React application with GraphQL hooks for data fetching. The application's static files are delivered to users via CDN.
+A lightweight web application interface that allows to user use services.
 
 ### Staff Web Interface
 Allows staff to monitor and control internal systems.
@@ -33,16 +33,18 @@ Allows staff to monitor and control internal systems.
 Watches all internal systems, collects statistical data, logs errors and other useful info.
 
 ### Business Logic
-Processes user logic, acts as a backend for User Web Application.
+Processes user logic, acts as a backend for user web interface.
 
 ### Calculation Controller
 Acts as a middleware between business logic and calculation services.
 
 ### Analyzer
-Reads and analyzes audience data and writes results to database.
+Analyzes audience data and writes results to the calculation database.
 
 ### Data Aggregator
-Collects, parses, scrapes raw data from social network or another type of social platform and writes it to the database.
+Collects, parses, scrapes raw data from social network or another type of social platform and writes it to the calculation database.
 
 ## Decisions
 Since the libraries for working with platforms API are implemented using different technologies, it's a good way to use the libraries natively, without any bindings or interactions with the ABI or FFI. Therefore, data aggregators implementations depends on the platform API library technology.
+
+The system design is devided into 3 layers: the presentation layer also known as a frontend, the business layer, which is backend for the frontend, and the compute layer, which contains microservices that does some calculations or computations for the business layer.
