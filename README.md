@@ -26,10 +26,10 @@ Create platform-agnostic and scalable analytics service that preserves the anony
 ### User Web Interface
 React application with GraphQL hooks for data fetching. The application's static files are delivered to users via CDN.
 
-### Stuff Web Interface
-Allows stuff to monitor and control internal systems.
+### Staff Web Interface
+Allows staff to monitor and control internal systems.
 
-### Stuff Web Server
+### Staff Web Server
 Watches all internal systems, collects statistical data, logs errors and other useful info.
 
 ### Business Logic
