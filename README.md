@@ -47,4 +47,4 @@ Analyzes audience data and writes results to the calculation database.
 Collects, parses, scrapes raw data from social network or another type of social platform and writes it to the calculation database.
 
 ## Decisions
-Since the libraries for working with platforms API are implemented using different technologies, it's a good way to use the libraries natively, without any bindings or interactions with the ABI or FFI. Therefore, data aggregators implementations depends on the platform API library technology.
+Since the libraries for working with platform APIs are implemented using different technologies, it's a good way to use the libraries natively, without any bindings or interactions with the ABI or FFI. Therefore, data aggregators implementations depends on the platform API library technology.
