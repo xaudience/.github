@@ -21,7 +21,7 @@ Create platform-agnostic and scalable analytics service that preserves the anony
 *The term audience in this context means audience of a channel, account, group, etc.*
 
 ## System Design
-The system design is devided into 3 layers: the presentation layer also known as a frontend, the business layer, which is backend for the frontend, and the compute layer, which contains microservices that does some calculations or computations for the business layer.
+The system design is devided into 3 layers: the presentation layer also known as a frontend, the business layer, which is backend for the frontend, and the compute layer, which contains microservices that do some calculations or computations for the business layer.
 
 ![System design](assets/system-design.drawio.png)
 
