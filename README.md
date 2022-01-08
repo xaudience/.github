@@ -21,6 +21,8 @@ Create platform-agnostic and scalable analytics service that preserves the anony
 *The term audience in this context means audience of a channel, account, group, etc.*
 
 ## System Design
+The system design is devided into 3 layers: the presentation layer also known as a frontend, the business layer, which is backend for the frontend, and the compute layer, which contains microservices that does some calculations or computations for the business layer.
+
 ![System design](assets/system-design.drawio.png)
 
 ### User Web Interface
@@ -46,5 +48,3 @@ Collects, parses, scrapes raw data from social network or another type of social
 
 ## Decisions
 Since the libraries for working with platforms API are implemented using different technologies, it's a good way to use the libraries natively, without any bindings or interactions with the ABI or FFI. Therefore, data aggregators implementations depends on the platform API library technology.
-
-The system design is devided into 3 layers: the presentation layer also known as a frontend, the business layer, which is backend for the frontend, and the compute layer, which contains microservices that does some calculations or computations for the business layer.
