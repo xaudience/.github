@@ -34,6 +34,12 @@ Allows stuff to monitor and control internal systems.
 ### Stuff Web Server
 Watches all internal systems, collects statistical data, logs errors and other useful info.
 
+### Business Logic
+Processes user logic, acts as a backend for User Web Application.
+
+### Calculation Controller
+Acts as a middleware between business logic and calculation services.
+
 ### Analyzer
 Reads and analyzes audience data and writes results to database.
 
