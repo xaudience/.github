@@ -24,7 +24,7 @@ Create platform-agnostic and scalable analytics service that preserves the anony
 ![System design](assets/system-design.drawio.png)
 
 ### User Web Interface
-A lightweight web application interface that allows to user use services.
+A lightweight web application that allows the user to use the services.
 
 ### Staff Web Interface
 Allows staff to monitor and control internal systems.
