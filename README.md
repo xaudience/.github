@@ -23,10 +23,10 @@ Create platform-agnostic and scalable analytics service that preserves the anony
 ## System Design
 ![System design](assets/system-design.drawio.png)
 
-### User Web Application
+### User Web Interface
 React application with GraphQL hooks for data fetching. The application's static files are delivered to users via CDN.
 
-### Stuff Web Application
+### Stuff Web Interface
 Allows stuff to monitor and control internal systems.
 
 ### Stuff Web Server
