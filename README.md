@@ -7,7 +7,7 @@ A service that provides statistics, metrics, insights based on audience data fro
 Planned platforms to support: currently Telegram only, also Twitter is in question due to its API policy, Discord looks suitable to start support it, but still needs research.
 
 ### Goals
-Create platform-agnostic analytics service that preserves the anonymity of users.
+Create platform-agnostic and scalable analytics service that preserves the anonymity of users.
 
 ### Use Cases
 - A user can explore audiences
