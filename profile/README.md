@@ -23,7 +23,7 @@ Create a platform-agnostic and scalable analytics service that preserves the ano
 ## System Design
 The system design is divided into 3 layers: the presentation layer also known as a frontend, the business layer, which is backend for the frontend, and the compute layer, which contains microservices that do some calculations or computations for the business layer.
 
-![System design](assets/system-design.drawio.png)
+![System design](https://github.com/xaudience/.github/blob/main/profile/assets/system-design.drawio.png)
 
 ### User Web Interface
 A lightweight web application that allows the user to use the services.
